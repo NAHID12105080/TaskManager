@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Tapestry } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
 import ToastProvider from "@/components/ui/Toaster";
 
-const font = Tapestry({ subsets: ["latin"], weight: "400" });
+const font = Inter({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata: Metadata = {
   title: "Task Manager",
